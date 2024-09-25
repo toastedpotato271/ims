@@ -1,1 +1,1 @@
-# ims-sqe
+# incident-management-systems
