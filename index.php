@@ -4,9 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>April Template</title>
+    <title>GRP3. - Incident Management Systems</title>
+	<link rel="icon" href="src/img/favicon/favicon-32x32.png" type="image/x-icon"/>
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,500,700|Fira+Sans:600" rel="stylesheet">
     <link rel="stylesheet" href="src/css/home.css">
+	<link rel="stylesheet" href="src/css/home-add.css">
 	<script src="https://unpkg.com/animejs@2.2.0/anime.min.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
@@ -36,39 +38,12 @@
 				</svg>
 			</div>
             <div class="container">
-                <div class="site-header-inner">
-                    <div class="brand header-brand">
-                        <h1 class="m-0">
-                            <a href="#">
-								<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
-									<title>April</title>
-								    <defs>
-								        <linearGradient x1="114.674%" y1="39.507%" x2="-52.998%" y2="39.507%" id="logo-a">
-								            <stop stop-color="#8D92FA" offset="0%"/>
-								            <stop stop-color="#8D92FA" stop-opacity="0" offset="100%"/>
-								        </linearGradient>
-								        <linearGradient x1="93.05%" y1="19.767%" x2="15.034%" y2="85.765%" id="logo-b">
-								            <stop stop-color="#FF3058" offset="0%"/>
-								            <stop stop-color="#FF6381" offset="100%"/>
-								        </linearGradient>
-								        <linearGradient x1="32.716%" y1="-20.176%" x2="32.716%" y2="148.747%" id="logo-c">
-								            <stop stop-color="#FF97AA" offset="0%"/>
-								            <stop stop-color="#FF97AA" stop-opacity="0" offset="100%"/>
-								        </linearGradient>
-								    </defs>
-								    <g fill="none" fill-rule="evenodd">
-								        <path d="M31.12 7.482C28.327 19.146 19.147 28.326 7.483 31.121A12.04 12.04 0 0 1 .88 24.518C3.674 12.854 12.854 3.674 24.518.879a12.04 12.04 0 0 1 6.603 6.603z" fill="#312ECA"/>
-								        <path d="M28.874 3.922l-24.91 24.99a12.026 12.026 0 0 1-3.085-4.394C3.674 12.854 12.854 3.674 24.518.879a12.025 12.025 0 0 1 4.356 3.043z" fill="url(#logo-a)"/>
-								        <g opacity=".88">
-								            <path d="M31.12 24.518a12.04 12.04 0 0 1-6.602 6.603C12.854 28.326 3.674 19.146.879 7.482A12.04 12.04 0 0 1 7.482.88c11.664 2.795 20.844 11.975 23.639 23.639z" fill="url(#logo-b)"/>
-								            <path d="M24.518 31.12C12.854 28.327 3.674 19.147.879 7.483A12.015 12.015 0 0 1 3.46 3.57L28.47 28.5a12.016 12.016 0 0 1-3.951 2.62z" fill="url(#logo-c)"/>
-								        </g>
-								    </g>
-								</svg>
-                            </a>
-                        </h1>
-                    </div>
-                </div>
+				<div class="site-header-inner">
+					<a href="#">
+						<img src="src/img/home/grp3ims-dark.png" alt="logo" id="logo-dark">
+					</a>
+					<a href="#" class="button-primary auth-button">SignUp/Login</a>
+				</div>
             </div>
         </header>
 
@@ -77,8 +52,8 @@
                 <div class="container">
                     <div class="hero-inner">
 						<div class="hero-copy">
-	                        <h1 class="hero-title mt-0">Landing template for startups</h1>
-	                        <p class="hero-paragraph">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+	                        <h1 class="hero-title mt-0">Efficient Incident Management Systems</h1>
+	                        <p class="hero-paragraph">Designed to help startups streamline their incident management processes effortlessly, ensuring smooth operations and a focus on growth.</p>
 							<div class="hero-form field field-grouped">
 								<div class="control control-expanded">
 									<input class="input" type="email" name="email" placeholder="Your best email&hellip;">
@@ -296,8 +271,8 @@
                     <div class="features-inner section-inner">
                         <div class="features-header text-center">
                             <div class="container-sm">
-                                <h2 class="section-title mt-0">Meet April</h2>
-                                <p class="section-paragraph">Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.</p>
+                                <h2 class="section-title mt-0">Meet GRP3. IMS</h2>
+                                <p class="section-paragraph">grp3. IMS simplifies incident tracking and reporting, making it easier than ever to manage your team's workflow efficiently and effectively.</p>
                             </div>
                         </div>
 						<div class="features-wrap">
@@ -311,8 +286,8 @@
 										    </g>
 										</svg>
                                     </div>
-                                    <h4 class="feature-title h3-mobile mb-8">Powerful</h4>
-                                    <p class="text-sm">A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements.</p>
+                                    <h4 class="feature-title h3-mobile mb-8">Innovative Design</h4>
+                                    <p class="text-sm">Our platform emphasizes clarity and usability, designed specifically to enhance your team's productivity and streamline communication during incident resolution.</p>
                                 </div>
                             </div>
 							<div class="feature text-center is-revealing">
@@ -325,8 +300,8 @@
 										    </g>
 										</svg>
                                     </div>
-                                    <h4 class="feature-title h3-mobile mb-8">Powerful</h4>
-                                    <p class="text-sm">A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements.</p>
+                                    <h4 class="feature-title h3-mobile mb-8">Robust Solutions</h4>
+                                    <p class="text-sm">Our system offers robust solutions tailored to meet the diverse needs of your organization. Experience seamless integration and unmatched support for all your incident management challenges.</p>
                                 </div>
                             </div>
 							<div class="feature text-center is-revealing">
@@ -340,8 +315,8 @@
 										    </g>
 										</svg>
                                     </div>
-                                    <h4 class="feature-title h3-mobile mb-8">Powerful</h4>
-                                    <p class="text-sm">A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements.</p>
+                                    <h4 class="feature-title h3-mobile mb-8">Dynamic Features</h4>
+                                    <p class="text-sm">Unlock a suite of dynamic features that adapt to your workflow. Our incident management system is powerful enough to handle any situation, giving you the confidence to tackle issues head-on.</p>
                                 </div>
                             </div>
 							<div class="feature text-center is-revealing">
@@ -354,8 +329,8 @@
 										    </g>
 										</svg>
                                     </div>
-                                    <h4 class="feature-title h3-mobile mb-8">Powerful</h4>
-                                    <p class="text-sm">A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements.</p>
+                                    <h4 class="feature-title h3-mobile mb-8">Unleash Your Potential</h4>
+                                    <p class="text-sm">Our powerful incident management system enables you to take control of your operations. Streamline processes and empower your team with the right tools for success.</p>
                                 </div>
                             </div>
 						</div>
@@ -403,10 +378,10 @@
 								<div class="testimonial-inner">
 									<div class="testimonial-main">
 										<div class="testimonial-header">
-											<img class="mb-16" src="dist/images/testimonial-01.png" alt="Testimonial">
+											<img class="mb-16" src="src/img/testimonial-01.png" alt="Testimonial">
 										</div>
 										<div class="testimonial-body">
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+											<p class="mb-0">This system has transformed our incident management process, making it more efficient and user-friendly!</p>
 										</div>
 									</div>
 									<div class="testimonial-footer">
@@ -420,10 +395,10 @@
 								<div class="testimonial-inner">
 									<div class="testimonial-main">
 										<div class="testimonial-header">
-											<img class="mb-16" src="dist/images/testimonial-02.png" alt="Testimonial">
+											<img class="mb-16" src="src/img/testimonial-02.png" alt="Testimonial">
 										</div>
 										<div class="testimonial-body">
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+											<p class="mb-0">Incredible tools and support! We've resolved issues faster than ever!</p>
 										</div>
 									</div>
 									<div class="testimonial-footer">
@@ -437,10 +412,10 @@
 								<div class="testimonial-inner">
 									<div class="testimonial-main">
 										<div class="testimonial-header">
-											<img class="mb-16" src="dist/images/testimonial-03.png" alt="Testimonial">
+											<img class="mb-16" src="src/img/testimonial-03.png" alt="Testimonial">
 										</div>
 										<div class="testimonial-body">
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+											<p class="mb-0">A game-changer for managing incidents—intuitive and powerful!</p>
 										</div>
 									</div>
 									<div class="testimonial-footer">
@@ -480,31 +455,7 @@
                 <div class="site-footer-inner has-top-divider">
                     <div class="brand footer-brand">
                         <a href="#">
-							<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
-								<title>April</title>
-								<defs>
-									<linearGradient x1="114.674%" y1="39.507%" x2="-52.998%" y2="39.507%" id="logo-footer-a">
-										<stop stop-color="#8D92FA" offset="0%"/>
-										<stop stop-color="#8D92FA" stop-opacity="0" offset="100%"/>
-									</linearGradient>
-									<linearGradient x1="93.05%" y1="19.767%" x2="15.034%" y2="85.765%" id="logo-footer-b">
-										<stop stop-color="#FF3058" offset="0%"/>
-										<stop stop-color="#FF6381" offset="100%"/>
-									</linearGradient>
-									<linearGradient x1="32.716%" y1="-20.176%" x2="32.716%" y2="148.747%" id="logo-footer-c">
-										<stop stop-color="#FF97AA" offset="0%"/>
-										<stop stop-color="#FF97AA" stop-opacity="0" offset="100%"/>
-									</linearGradient>
-								</defs>
-								<g fill="none" fill-rule="evenodd">
-									<path d="M31.12 7.482C28.327 19.146 19.147 28.326 7.483 31.121A12.04 12.04 0 0 1 .88 24.518C3.674 12.854 12.854 3.674 24.518.879a12.04 12.04 0 0 1 6.603 6.603z" fill="#312ECA"/>
-									<path d="M28.874 3.922l-24.91 24.99a12.026 12.026 0 0 1-3.085-4.394C3.674 12.854 12.854 3.674 24.518.879a12.025 12.025 0 0 1 4.356 3.043z" fill="url(#logo-footer-a)"/>
-									<g opacity=".88">
-										<path d="M31.12 24.518a12.04 12.04 0 0 1-6.602 6.603C12.854 28.326 3.674 19.146.879 7.482A12.04 12.04 0 0 1 7.482.88c11.664 2.795 20.844 11.975 23.639 23.639z" fill="url(#logo-footer-b)"/>
-										<path d="M24.518 31.12C12.854 28.327 3.674 19.147.879 7.483A12.015 12.015 0 0 1 3.46 3.57L28.47 28.5a12.016 12.016 0 0 1-3.951 2.62z" fill="url(#logo-footer-c)"/>
-									</g>
-								</g>
-							</svg>
+							<img src="src/img/home/grp3ims-light.png" alt="logo" id="logo-light" style="width: 50%;">
                         </a>
                     </div>
                     <ul class="footer-links list-reset">
@@ -547,7 +498,7 @@
                             </a>
                         </li>
                     </ul>
-                    <div class="footer-copyright">&copy; 2018 April, all rights reserved</div>
+                    <div class="footer-copyright">&copy; 2024 grp3. IMS, all rights reserved</div>
                 </div>
             </div>
         </footer>
