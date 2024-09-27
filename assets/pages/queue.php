@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Dashboard - GRP3.</title>
+    <title>Queues - GRP3.</title>
     <link rel="icon" href="src/img/favicon/favicon-32x32.png" type="image/x-icon"/>
     <meta
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
@@ -313,7 +313,44 @@
                     </p>
                   </div>
                   <div class="card-body">
-
+                  <table id="queue-table">
+                    <thead>
+                        <tr class="table-header">
+                            <th class="table-cell">ID</th>
+                            <th class="table-cell">Incident Name</th>
+                            <th class="table-cell">Reported By</th>
+                            <th class="table-cell">Status</th>
+                            <th class="table-cell">Assigned To</th>
+                            <th class="table-cell">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Sample static rows -->
+                        <tr class="table-row">
+                            <td class="table-cell">1</td>
+                            <td class="table-cell">Network Issue</td>
+                            <td class="table-cell">John Doe</td>
+                            <td class="table-cell">Open</td>
+                            <td class="table-cell">Dev Team A</td>
+                            <td class="table-cell">
+                                <button class="btn view-btn">View</button> 
+                                <button class="btn edit-btn">Edit</button>
+                            </td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="table-cell">2</td>
+                            <td class="table-cell">Server Down</td>
+                            <td class="table-cell">Jane Smith</td>
+                            <td class="table-cell">In Progress</td>
+                            <td class="table-cell">Dev Team B</td>
+                            <td class="table-cell">
+                                <button class="btn view-btn">View</button> 
+                                <button class="btn edit-btn">Edit</button>
+                            </td>
+                        </tr>
+                        <!-- Rows from database will be populated here -->
+                    </tbody>
+                  </table>
                   </div>
                 </div>
               </div>

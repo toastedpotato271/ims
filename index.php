@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>GRP3. - Incident Management Systems</title>
-	<link rel="icon" href="src/img/favicon/favicon-32x32.png" type="image/x-icon"/>
+	<link rel="icon" href="assets/img/favicon/favicon-32x32.png" type="image/x-icon"/>
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,500,700|Fira+Sans:600" rel="stylesheet">
-    <link rel="stylesheet" href="src/css/home.css">
-	<link rel="stylesheet" href="src/css/home-add.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+	<link rel="stylesheet" href="assets/css/home-add.css">
 	<script src="https://unpkg.com/animejs@2.2.0/anime.min.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
@@ -40,9 +40,9 @@
             <div class="container">
 				<div class="site-header-inner">
 					<a href="#">
-						<img src="src/img/home/grp3ims-dark.png" alt="logo" id="logo-dark">
+						<img src="assets/img/home/grp3ims-dark.png" alt="logo" id="logo-dark">
 					</a>
-					<a href="#" class="button-primary auth-button">SignUp/Login</a>
+					<a href="assets/pages/auth.php" class="button-primary auth-button">SignUp/Login</a>
 				</div>
             </div>
         </header>
@@ -378,7 +378,7 @@
 								<div class="testimonial-inner">
 									<div class="testimonial-main">
 										<div class="testimonial-header">
-											<img class="mb-16" src="src/img/testimonial-01.png" alt="Testimonial">
+											<img class="mb-16" src="assets/img/testimonial-01.png" alt="Testimonial">
 										</div>
 										<div class="testimonial-body">
 											<p class="mb-0">This system has transformed our incident management process, making it more efficient and user-friendly!</p>
@@ -395,7 +395,7 @@
 								<div class="testimonial-inner">
 									<div class="testimonial-main">
 										<div class="testimonial-header">
-											<img class="mb-16" src="src/img/testimonial-02.png" alt="Testimonial">
+											<img class="mb-16" src="assets/img/testimonial-02.png" alt="Testimonial">
 										</div>
 										<div class="testimonial-body">
 											<p class="mb-0">Incredible tools and support! We've resolved issues faster than ever!</p>
@@ -412,7 +412,7 @@
 								<div class="testimonial-inner">
 									<div class="testimonial-main">
 										<div class="testimonial-header">
-											<img class="mb-16" src="src/img/testimonial-03.png" alt="Testimonial">
+											<img class="mb-16" src="assets/img/testimonial-03.png" alt="Testimonial">
 										</div>
 										<div class="testimonial-body">
 											<p class="mb-0">A game-changer for managing incidents—intuitive and powerful!</p>
@@ -455,7 +455,7 @@
                 <div class="site-footer-inner has-top-divider">
                     <div class="brand footer-brand">
                         <a href="#">
-							<img src="src/img/home/grp3ims-light.png" alt="logo" id="logo-light" style="width: 50%;">
+							<img src="assets/img/home/grp3ims-light.png" alt="logo" id="logo-light" style="width: 50%;">
                         </a>
                     </div>
                     <ul class="footer-links list-reset">
@@ -504,6 +504,6 @@
         </footer>
     </div>
 
-    <script src="src/js/home.js"></script>
+    <script src="assets/js/home.js"></script>
 </body>
 </html>
