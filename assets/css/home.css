@@ -3,6 +3,24 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
   }
+
+  /* additional css */
+  img#logo-dark {
+    width: 80%;
+  }
+  a.auth-button {
+    background: -webkit-linear-gradient(to right, #5b0dfa, #9629eb);
+    background: linear-gradient(to right, #5b0dfa, #9629eb); 
+    color: #fff; 
+    border: none; 
+    padding: 10px 25px; 
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 16px; 
+    transition: background 0.3s ease;
+  }
+  /* end of additional css */
+
   body {
     margin: 0;
   }

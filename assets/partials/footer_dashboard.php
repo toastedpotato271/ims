@@ -1,27 +1,12 @@
 <footer class="footer">
           <div class="container-fluid d-flex justify-content-between">
             <nav class="pull-left">
-              <ul class="nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="http://www.themekita.com">
-                    ThemeKita
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"> Help </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"> Licenses </a>
-                </li>
-              </ul>
             </nav>
             <div class="copyright">
               2024, made with <i class="fa fa-heart heart text-danger"></i> by
-              <a href="http://www.themekita.com">ThemeKita</a>
+              <a href="#">GRP3.</a>
             </div>
             <div>
-              Distributed by
-              <a target="_blank" href="https://themewagon.com/">ThemeWagon</a>.
             </div>
           </div>
         </footer>
@@ -286,5 +271,15 @@
         fillColor: "rgba(255, 165, 52, .14)",
       });
     </script>
+
+    <!-- Dynamically load additional JavaScript files if they exist -->
+    <?php
+    if (isset($additional_js) && is_array($additional_js)) {
+        foreach ($additional_js as $js_file) {
+            echo '<script src="' . $js_file . '"></script>';
+        }
+    }
+    ?>
+    
   </body>
 </html>
