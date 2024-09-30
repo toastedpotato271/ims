@@ -12,8 +12,7 @@
         </footer>
       </div>
 
-      <!-- Custom template | don't include it in your project! -->
-      <div class="custom-template">
+      <!-- Custom template | don't include it in your project!
         <div class="title">Settings</div>
         <div class="custom-content">
           <div class="switcher">
@@ -205,7 +204,8 @@
           <i class="icon-settings"></i>
         </div>
       </div>
-      <!-- End Custom template -->
+      
+      End Custom template --> 
     </div>
     <!--   Core JS Files   -->
     <script src="../js/core/jquery-3.7.1.min.js"></script>

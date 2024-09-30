@@ -11,7 +11,7 @@
 <body> 
 <div class="container" id="container">
 	<div class="form-container sign-up-container">
-		<form action="#">
+		<form action="dashboard.php"><!--adjust links later-->
 			<h1>Create Account</h1>
 
 			<input type="text" placeholder="Name" />
@@ -21,7 +21,7 @@
 		</form>
 	</div>
 	<div class="form-container sign-in-container">
-		<form action="#">
+		<form action="dashboard.php"><!--adjust links later-->
 			<h1>Sign in</h1>
 
 			<input type="email" placeholder="Email" />
