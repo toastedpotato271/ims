@@ -9,14 +9,10 @@ include '../partials/header_dashboard.php';
               class="d-flex align-items-left align-items-md-center flex-column flex-md-row pt-2 pb-4"
             >
               <div>
-                <h3 class="fw-bold mb-3">Dashboard</h3>
-                <h6 class="op-7 mb-2">Free Bootstrap 5 Admin Dashboard</h6>
-              </div>
-              <div class="ms-md-auto py-2 py-md-0">
-                <a href="#" class="btn btn-label-info btn-round me-2">Manage</a>
-                <a href="#" class="btn btn-primary btn-round">Add Customer</a>
+                <h3 class="fw-bold mb-3">Welcome Back! "User Name"</h3>
               </div>
             </div>
+
             <div class="row">
               <div class="col-sm-6 col-md-3">
                 <div class="card card-stats card-round">
@@ -31,8 +27,8 @@ include '../partials/header_dashboard.php';
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                          <p class="card-category">Visitors</p>
-                          <h4 class="card-title">1,294</h4>
+                          <p class="card-category">Total Reports</p>
+                          <h4 class="card-title">123</h4>
                         </div>
                       </div>
                     </div>
@@ -52,8 +48,8 @@ include '../partials/header_dashboard.php';
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                          <p class="card-category">Subscribers</p>
-                          <h4 class="card-title">1303</h4>
+                          <p class="card-category">In Progress</p>
+                          <h4 class="card-title">50</h4>
                         </div>
                       </div>
                     </div>
@@ -73,8 +69,8 @@ include '../partials/header_dashboard.php';
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                          <p class="card-category">Sales</p>
-                          <h4 class="card-title">$ 1,345</h4>
+                          <p class="card-category">Cancelled</p>
+                          <h4 class="card-title">20</h4>
                         </div>
                       </div>
                     </div>
@@ -94,8 +90,8 @@ include '../partials/header_dashboard.php';
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                          <p class="card-category">Order</p>
-                          <h4 class="card-title">576</h4>
+                          <p class="card-category">Closed</p>
+                          <h4 class="card-title">53</h4>
                         </div>
                       </div>
                     </div>
@@ -227,7 +223,7 @@ include '../partials/header_dashboard.php';
                                 <td>
                                   <div class="flag">
                                     <img
-                                      src="src/dashboard/assets/img/flags/id.png"
+                                      src="../img/dashboard/flags/id.png"
                                       alt="indonesia"
                                     />
                                   </div>
@@ -240,7 +236,7 @@ include '../partials/header_dashboard.php';
                                 <td>
                                   <div class="flag">
                                     <img
-                                      src="src/dashboard/assets/img/flags/us.png"
+                                      src="../img/dashboard/flags/us.png"
                                       alt="united states"
                                     />
                                   </div>
@@ -253,7 +249,7 @@ include '../partials/header_dashboard.php';
                                 <td>
                                   <div class="flag">
                                     <img
-                                      src="dashboard/img/flags/au.png"
+                                      src="../img/dashboard/flags/au.png"
                                       alt="australia"
                                     />
                                   </div>
@@ -266,7 +262,7 @@ include '../partials/header_dashboard.php';
                                 <td>
                                   <div class="flag">
                                     <img
-                                      src="src/dashboard/assets/img/flags/ru.png"
+                                      src="../img/dashboard/flags/ru.png"
                                       alt="russia"
                                     />
                                   </div>
@@ -279,7 +275,7 @@ include '../partials/header_dashboard.php';
                                 <td>
                                   <div class="flag">
                                     <img
-                                      src="src/dashboard/assets/img/flags/cn.png"
+                                      src="../img/dashboard/flags/cn.png"
                                       alt="china"
                                     />
                                   </div>
@@ -292,7 +288,7 @@ include '../partials/header_dashboard.php';
                                 <td>
                                   <div class="flag">
                                     <img
-                                      src="src/dashboard/assets/img/flags/br.png"
+                                      src="../img/dashboard/flags/br.png"
                                       alt="brazil"
                                     />
                                   </div>
@@ -354,7 +350,7 @@ include '../partials/header_dashboard.php';
                       <div class="item-list">
                         <div class="avatar">
                           <img
-                            src="src/dashboard/assets/img/jm_denis.jpg"
+                            src="../img/dashboard/jm_denis.jpg"
                             alt="..."
                             class="avatar-img rounded-circle"
                           />
@@ -391,7 +387,7 @@ include '../partials/header_dashboard.php';
                       <div class="item-list">
                         <div class="avatar">
                           <img
-                            src="src/dashboard/assets/img/talha.jpg"
+                            src="../img/dashboard/talha.jpg"
                             alt="..."
                             class="avatar-img rounded-circle"
                           />
@@ -410,7 +406,7 @@ include '../partials/header_dashboard.php';
                       <div class="item-list">
                         <div class="avatar">
                           <img
-                            src="src/dashboard/assets/img/chadengle.jpg"
+                            src="../img/dashboard/chadengle.jpg"
                             alt="..."
                             class="avatar-img rounded-circle"
                           />

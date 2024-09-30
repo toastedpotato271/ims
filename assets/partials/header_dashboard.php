@@ -10,7 +10,7 @@
     />
 
     <!-- Fonts and icons -->
-    <script src="src/dashboard/assets/js/plugin/webfont/webfont.min.js"></script>
+    <script src="../js/dashboard/plugin/webfont/webfont.min.js"></script>
     <script>
       WebFont.load({
         google: { families: ["Public Sans:300,400,500,600,700"] },
@@ -21,7 +21,7 @@
             "Font Awesome 5 Brands",
             "simple-line-icons",
           ],
-          urls: ["src/dashboard/assets/css/fonts.min.css"],
+          urls: ["../css/dashboard/fonts.min.css"], 
         },
         active: function () {
           sessionStorage.fonts = true;
@@ -279,7 +279,7 @@
             <div class="logo-header" data-background-color="dark">
               <a href="index.html" class="logo">
                 <img
-                  src="src/dashboard/assets/img/kaiadmin/logo_light.svg"
+                  src="../img/home/grp3ims-light.png"
                   alt="navbar brand"
                   class="navbar-brand"
                   height="20"
@@ -377,7 +377,7 @@
                           <a href="#">
                             <div class="notif-img">
                               <img
-                                src="src/dashboard/assets/img/jm_denis.jpg"
+                                src="../img/dashboard/jm_denis.jpg"
                                 alt="Img Profile"
                               />
                             </div>
@@ -390,7 +390,7 @@
                           <a href="#">
                             <div class="notif-img">
                               <img
-                                src="src/dashboard/assets/img/chadengle.jpg"
+                                src="../img/dashboard/chadengle.jpg"
                                 alt="Img Profile"
                               />
                             </div>
@@ -403,7 +403,7 @@
                           <a href="#">
                             <div class="notif-img">
                               <img
-                                src="src/dashboard/assets/img/mlane.jpg"
+                                src="../img/dashboard/mlane.jpg"
                                 alt="Img Profile"
                               />
                             </div>
@@ -418,7 +418,7 @@
                           <a href="#">
                             <div class="notif-img">
                               <img
-                                src="src/dashboard/assets/img/talha.jpg"
+                                src="../img/dashboard/talha.jpg"
                                 alt="Img Profile"
                               />
                             </div>
@@ -486,7 +486,7 @@
                           <a href="#">
                             <div class="notif-img">
                               <img
-                                src="src/dashboard/assets/img/profile2.jpg"
+                                src="../img/dashboard/profile2.jpg"
                                 alt="Img Profile"
                               />
                             </div>
@@ -604,7 +604,7 @@
                   >
                     <div class="avatar-sm">
                       <img
-                        src="src/dashboard/assets/img/profile.jpg"
+                        src="../img/dashboard/profile.jpg"
                         alt="..."
                         class="avatar-img rounded-circle"
                       />
@@ -620,7 +620,7 @@
                         <div class="user-box">
                           <div class="avatar-lg">
                             <img
-                              src="src/dashboard/assets/img/profile.jpg"
+                              src="../img/dashboard/profile.jpg"
                               alt="image profile"
                               class="avatar-img rounded"
                             />

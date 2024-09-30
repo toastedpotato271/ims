@@ -208,41 +208,41 @@
       End Custom template --> 
     </div>
     <!--   Core JS Files   -->
-    <script src="../js/core/jquery-3.7.1.min.js"></script>
-    <script src="../js/core/popper.min.js"></script>
-    <script src="../js/core/bootstrap.min.js"></script>
+    <script src="../js/dashboard/core/jquery-3.7.1.min.js"></script>
+    <script src="../js/dashboard/core/popper.min.js"></script>
+    <script src="../js/dashboard/core/bootstrap.min.js"></script>
 
     <!-- jQuery Scrollbar -->
-    <script src="../js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+    <script src="../js/dashboard/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
 
     <!-- Chart JS -->
-    <script src="../js/plugin/chart.js/chart.min.js"></script>
+    <script src="../js/dashboard/plugin/chart.js/chart.min.js"></script>
 
     <!-- jQuery Sparkline -->
-    <script src="../js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+    <script src="../js/dashboard/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
 
     <!-- Chart Circle -->
-    <script src="../js/plugin/chart-circle/circles.min.js"></script>
+    <script src="../js/dashboard/plugin/chart-circle/circles.min.js"></script>
 
     <!-- Datatables -->
-    <script src="../js/plugin/datatables/datatables.min.js"></script>
+    <script src="../js/dashboard/plugin/datatables/datatables.min.js"></script>
 
     <!-- Bootstrap Notify -->
-    <script src="../js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+    <script src="../js/dashboard/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
 
     <!-- jQuery Vector Maps -->
-    <script src="../js/plugin/jsvectormap/jsvectormap.min.js"></script>
-    <script src="../js/plugin/jsvectormap/world.js"></script>
+    <script src="../js/dashboard/plugin/jsvectormap/jsvectormap.min.js"></script>
+    <script src="../js/dashboard/plugin/jsvectormap/world.js"></script>
 
     <!-- Sweet Alert -->
-    <script src="../js/plugin/sweetalert/sweetalert.min.js"></script>
+    <script src="../js/dashboard/plugin/sweetalert/sweetalert.min.js"></script>
 
     <!-- Kaiadmin JS -->
-    <script src="src/dashboard/assets/js/kaiadmin.min.js"></script>
+    <script src="../js/dashboard/kaiadmin.min.js"></script>
 
     <!-- Kaiadmin DEMO methods, don't include it in your project! -->
-    <script src="src/dashboard/assets/js/setting-demo.js"></script>
-    <script src="src/dashboard/assets/js/demo.js"></script>
+    <script src="../js/dashboard/setting-demo.js"></script>
+    <script src="../js/dashboard/demo.js"></script>
     <script>
       $("#lineChart").sparkline([102, 109, 120, 99, 110, 105, 115], {
         type: "line",

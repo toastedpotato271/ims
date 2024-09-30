@@ -110,7 +110,15 @@ include '../partials/header_dashboard.php';
           <td class="i-t-f__number-room">9</td>
           <td class="i-t-f__floor">3</td>
           <td class="i-t-f__rooms">3</td>
-          <td class="i-t-f__area">85</td>
+          <td class="i-t-f__area">
+          <select name="status" id="staus-box">
+              <option value="waiting">Waiting</option>
+              <option value="pending">Pending</option>
+              <option value="inprogress">In Progress</option>
+              <option value="open">Open</option>
+              <option value="finished">Finished</option>
+            </select>
+          </td>
           <td class="i-t-f__prog">38,50</td>
         </tr>
         <!--3-->  
@@ -130,7 +138,15 @@ include '../partials/header_dashboard.php';
           <td class="i-t-f__number-room">9</td>
           <td class="i-t-f__floor">3</td>
           <td class="i-t-f__rooms">3</td>
-          <td class="i-t-f__area">85</td>
+          <td class="i-t-f__area">
+          <select name="status" id="staus-box">
+              <option value="waiting">Waiting</option>
+              <option value="pending">Pending</option>
+              <option value="inprogress">In Progress</option>
+              <option value="open">Open</option>
+              <option value="finished">Finished</option>
+            </select>
+          </td>
           <td class="i-t-f__prog">38,50</td>
         </tr>
         <!--4--> 
@@ -150,7 +166,15 @@ include '../partials/header_dashboard.php';
           <td class="i-t-f__number-room">89</td>
           <td class="i-t-f__floor">15</td>
           <td class="i-t-f__rooms">3</td>
-          <td class="i-t-f__area">85,08</td>
+          <td class="i-t-f__area">
+          <select name="status" id="staus-box">
+              <option value="waiting">Waiting</option>
+              <option value="pending">Pending</option>
+              <option value="inprogress">In Progress</option>
+              <option value="open">Open</option>
+              <option value="finished">Finished</option>
+            </select>
+          </td>
           <td class="i-t-f__prog">81</td>
         </tr>
         <!--5--> 
@@ -170,7 +194,15 @@ include '../partials/header_dashboard.php';
           <td class="i-t-f__number-room">80</td>
           <td class="i-t-f__floor">13</td>
           <td class="i-t-f__rooms">4</td>
-          <td class="i-t-f__area">85</td>
+          <td class="i-t-f__area">
+          <select name="status" id="staus-box">
+              <option value="waiting">Waiting</option>
+              <option value="pending">Pending</option>
+              <option value="inprogress">In Progress</option>
+              <option value="open">Open</option>
+              <option value="finished">Finished</option>
+            </select>    
+          </td>
           <td class="i-t-f__prog">38,50</td>
         </tr>
         <!--6-->   
@@ -190,7 +222,15 @@ include '../partials/header_dashboard.php';
           <td class="i-t-f__number-room">98</td>
           <td class="i-t-f__floor">16</td>
           <td class="i-t-f__rooms">4</td>
-          <td class="i-t-f__area">127,88</td>
+          <td class="i-t-f__area">
+          <select name="status" id="staus-box">
+              <option value="waiting">Waiting</option>
+              <option value="pending">Pending</option>
+              <option value="inprogress">In Progress</option>
+              <option value="open">Open</option>
+              <option value="finished">Finished</option>
+            </select> 
+          </td>
           <td class="i-t-f__prog">118,2</td>
         </tr>
         <!--7-->  
@@ -210,7 +250,15 @@ include '../partials/header_dashboard.php';
           <td class="i-t-f__number-room">126</td>
           <td class="i-t-f__floor">16</td>
           <td class="i-t-f__rooms">4</td>
-          <td class="i-t-f__area">127,88</td>
+          <td class="i-t-f__area">
+          <select name="status" id="staus-box">
+              <option value="waiting">Waiting</option>
+              <option value="pending">Pending</option>
+              <option value="inprogress">In Progress</option>
+              <option value="open">Open</option>
+              <option value="finished">Finished</option>
+            </select>            
+          </td>
           <td class="i-t-f__prog">118,2</td>
         </tr>
         <!--8-->   
@@ -230,7 +278,15 @@ include '../partials/header_dashboard.php';
           <td class="i-t-f__number-room">11</td>
           <td class="i-t-f__floor">3</td>
           <td class="i-t-f__rooms">11</td>
-          <td class="i-t-f__area">37,97</td>
+          <td class="i-t-f__area">
+          <select name="status" id="staus-box">
+              <option value="waiting">Waiting</option>
+              <option value="pending">Pending</option>
+              <option value="inprogress">In Progress</option>
+              <option value="open">Open</option>
+              <option value="finished">Finished</option>
+            </select>
+          </td>
           <td class="i-t-f__prog">34,20</td>
         </tr>
         <!--9-->   
@@ -250,7 +306,15 @@ include '../partials/header_dashboard.php';
           <td class="i-t-f__number-room">2</td>
           <td class="i-t-f__floor">3</td>
           <td class="i-t-f__rooms">1</td>
-          <td class="i-t-f__area">86,82</td>
+          <td class="i-t-f__area">
+            <select name="status" id="staus-box">
+              <option value="waiting">Waiting</option>
+              <option value="pending">Pending</option>
+              <option value="inprogress">In Progress</option>
+              <option value="open">Open</option>
+              <option value="finished">Finished</option>
+            </select>
+          </td>
           <td class="i-t-f__prog">80,04</td>
         </tr>
 
