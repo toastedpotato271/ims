@@ -272,9 +272,9 @@ var ctx = document.getElementById('statisticsChart').getContext('2d');
 var statisticsChart = new Chart(ctx, {
 	type: 'line',
 	data: {
-		labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+		labels: ["1", "2", "3", "4", "5", "6", "7"],
 		datasets: [ {
-			label: "Subscribers",
+			label: "In Progress",
 			borderColor: '#f3545d',
 			pointBackgroundColor: 'rgba(243, 84, 93, 0.6)',
 			pointRadius: 0,
@@ -282,9 +282,9 @@ var statisticsChart = new Chart(ctx, {
 			legendColor: '#f3545d',
 			fill: true,
 			borderWidth: 2,
-			data: [154, 184, 175, 203, 210, 231, 240, 278, 252, 312, 320, 374]
+			data: [4, 8, 5, 1, 8, 9, 10]
 		}, {
-			label: "New Visitors",
+			label: "Cancelled",
 			borderColor: '#fdaf4b',
 			pointBackgroundColor: 'rgba(253, 175, 75, 0.6)',
 			pointRadius: 0,
@@ -292,9 +292,9 @@ var statisticsChart = new Chart(ctx, {
 			legendColor: '#fdaf4b',
 			fill: true,
 			borderWidth: 2,
-			data: [256, 230, 245, 287, 240, 250, 230, 295, 331, 431, 456, 521]
+			data: [2, 1, 0, 3, 0, 0, 2]
 		}, {
-			label: "Active Users",
+			label: "For Review",
 			borderColor: '#177dff',
 			pointBackgroundColor: 'rgba(23, 125, 255, 0.6)',
 			pointRadius: 0,
@@ -302,7 +302,7 @@ var statisticsChart = new Chart(ctx, {
 			legendColor: '#177dff',
 			fill: true,
 			borderWidth: 2,
-			data: [542, 480, 430, 550, 530, 453, 380, 434, 568, 610, 700, 900]
+			data: [10, 5, 12, 8, 9, 18, 14]
 		}]
 	},
 	options : {
@@ -388,7 +388,7 @@ var myDailySalesChart = new Chart(dailySalesChart, {
 		"August",
 		"September"],
 		datasets:[ {
-			label: "Sales Analytics", fill: !0, backgroundColor: "rgba(255,255,255,0.2)", borderColor: "#fff", borderCapStyle: "butt", borderDash: [], borderDashOffset: 0, pointBorderColor: "#fff", pointBackgroundColor: "#fff", pointBorderWidth: 1, pointHoverRadius: 5, pointHoverBackgroundColor: "#fff", pointHoverBorderColor: "#fff", pointHoverBorderWidth: 1, pointRadius: 1, pointHitRadius: 5, data: [65, 59, 80, 81, 56, 55, 40, 35, 30]
+			label: "Sales Analytics", fill: !0, backgroundColor: "rgba(92,12,254,1)", borderColor: "#fff", borderCapStyle: "butt", borderDash: [], borderDashOffset: 0, pointBorderColor: "#fff", pointBackgroundColor: "#fff", pointBorderWidth: 1, pointHoverRadius: 5, pointHoverBackgroundColor: "#fff", pointHoverBorderColor: "#fff", pointHoverBorderWidth: 1, pointRadius: 1, pointHitRadius: 5, data: [65, 59, 80, 81, 56, 55, 40, 35, 30]
 		}]
 	},
 	options : {
@@ -412,7 +412,7 @@ var myDailySalesChart = new Chart(dailySalesChart, {
 					zeroLineColor: "transparent"
 				}
 				, ticks: {
-					padding: -20, fontColor: "rgba(255,255,255,0.2)", fontStyle: "bold"
+					padding: -20, fontColor: "rgba(150,42,239,1)", fontStyle: "bold"
 				}
 			}
 			]

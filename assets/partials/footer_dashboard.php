@@ -210,7 +210,7 @@
     <!--   Core JS Files   -->
     <script src="../js/dashboard/core/jquery-3.7.1.min.js"></script>
     <script src="../js/dashboard/core/popper.min.js"></script>
-    <script src="../js/dashboard/core/bootstrap.min.js"></script>
+    <script src="..as/js/dashboard/core/bootstrap.min.js"></script>
 
     <!-- jQuery Scrollbar -->
     <script src="../js/dashboard/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>

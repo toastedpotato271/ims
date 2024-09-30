@@ -1843,7 +1843,12 @@ label {
   background: #F25961 !important; }
 
 .card-round {
-  border-radius: 10px; }
+  border-radius: 10px; 
+}
+
+.card.card-round {
+  padding: 15px;
+}
 
 /*     Progress Card    */
 .progress-card {

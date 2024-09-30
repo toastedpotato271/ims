@@ -1,3 +1,7 @@
-main.queue-list {
-    padding: 30px;
+img.navbar-brand {
+    height: 35px;
+}
+
+div.queue-box {
+    padding: 20px;
 }

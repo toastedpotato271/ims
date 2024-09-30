@@ -8,7 +8,7 @@ include '../partials/header_dashboard.php';
 
 <div class="container">
 <main class="queue-list">
-  <div class="card card-round">
+  <div class="card card-round queue-box">
     <div class="card-header">
       <div class="card-head-row card-tools-still-right">
         <h4 class="card-title">Incident List</h4>
