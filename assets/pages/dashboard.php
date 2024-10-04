@@ -139,7 +139,7 @@ include '../partials/header_dashboard.php';
                 <div class="card card-primary card-round">
                   <div class="card-header">
                     <div class="card-head-row">
-                      <div class="card-title">Resolved</div>
+                      <div class="card-title">Cases Resolved</div>
                       <div class="card-tools">
                       </div>
                     </div>
@@ -172,7 +172,7 @@ include '../partials/header_dashboard.php';
                   <div class="card card-round queue-box">
                     <div class="card-header">
                       <div class="card-head-row card-tools-still-right">
-                        <h4 class="card-title">Incident List</h4>
+                        <h4 class="card-title">Recent Reports</h4>
                         <div class="card-tools">
                           <button class="btn btn-icon btn-link btn-primary btn-xs">
                             <span class="fa fa-angle-down"></span>

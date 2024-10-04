@@ -272,7 +272,7 @@
       });
     </script>
 
-    <!-- Dynamically load additional JavaScript files if they exist -->
+    <!-- Dynamically load additional JavaScript files -->
     <?php
     if (isset($additional_js) && is_array($additional_js)) {
         foreach ($additional_js as $js_file) {

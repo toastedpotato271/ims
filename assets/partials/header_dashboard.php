@@ -35,7 +35,7 @@
     <link rel="stylesheet" href="../css/dashboard/kaiadmin.min.css" />
     <link rel="stylesheet" href="../css/dashboard/dashboard-add.css" />
 
-    <!-- Dynamically load additional CSS if it exists -->
+    <!-- Dynamically load additional CSS -->
     <?php
     if (isset($additional_css) && is_array($additional_css)) {
         foreach ($additional_css as $css_file) {
@@ -101,7 +101,7 @@
                   <p>Incident List</p>
                 </a>
               </li>
-              <li class="nav-item">
+              <!--<li class="nav-item">
                 <a data-bs-toggle="collapse" href="#sidebarLayouts">
                   <i class="fas fa-th-list"></i>
                   <p>Sidebar Layouts</p>
@@ -265,7 +265,7 @@
                     </li>
                   </ul>
                 </div>
-              </li>
+              </li>-->
             </ul>
           </div>
         </div>
