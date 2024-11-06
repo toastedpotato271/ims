@@ -20,7 +20,7 @@
 
     <div class="form-container">
             <form onsubmit="return validateForm()">
-                <h1>Ragnarok Project</h1>
+                <h1>Customer Service</h1>
                 <p>Welcome! You can raise a request for Ragnarok Project using the options provided.</p>
                 
                 <!-- Dropdown Section -->
