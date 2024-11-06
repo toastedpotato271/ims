@@ -9,7 +9,7 @@
     <!-- File Links -->
 	<link rel="icon" href="src/img/favicon/favicon-32x32.png" type="image/x-icon"/>
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,500,700|Fira+Sans:600" rel="stylesheet">
-    <link rel="stylesheet" href="src/css/Login/login.css">
+    <link rel="stylesheet" href="src/css/login/login.css">
 
 </head>
 <body>
